@@ -18,8 +18,6 @@ initialSpeed = 0
 initialAngle = np.radians(45)
 
 
-
-
 rocket_x = 0
 rocket_vx = initialSpeed * np.cos(initialAngle)
 rocket_y = 0
