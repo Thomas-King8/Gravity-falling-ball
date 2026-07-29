@@ -32,7 +32,7 @@ for step in range(100000):
     if time < burn_time:
         current_mass = dry_mass + fuel_mass * (1 - time/burn_time)
         thrust_force = thrust 
-    else:
+    else:   
         current_mass = dry_mass
         thrust_force = 0 
     
